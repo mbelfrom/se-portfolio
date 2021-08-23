@@ -1,0 +1,9 @@
+/*font for page*/
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header {
+    background-color: crimson;
+}
+
