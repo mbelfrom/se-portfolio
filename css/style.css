@@ -4,6 +4,13 @@
 }
 
 header {
-    background-color: crimson;
+    background-color: #B60808;
 }
 
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
