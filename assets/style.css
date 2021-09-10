@@ -1,0 +1,43 @@
+/*font for page*/
+:root {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:16px;
+    --text-primary:var(--text-primary);
+    --text-secondary:var(--text-secondary);
+}
+
+header {
+    background-color: #B60808;
+    text-align: left;
+    padding: 40px;
+    color: black;
+}
+.navbar {
+  display: flex;
+  flex
+  margin-right: 40px;
+  background-color: deepskyblue;
+  padding: 15px;
+} 
+
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+width: 20%;
+height: auto;
+}
+
+.bg {
+
+}
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
