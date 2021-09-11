@@ -25,7 +25,8 @@ Homework assignment 1 updated is my portfolio page built with HTML,CSS, Javascri
         Software Engineer Portfolio. 
 
 
-![Homework screenshot](./assets/images/Portfolio.png)
+![Homework screenshot](/assets/images/Portfolio.png)
+Format: ![My Professional Page](https://mbelfrom.github.io/se-portfolio/)
 
 
 
