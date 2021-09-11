@@ -10,14 +10,11 @@
 
 ## Description
 
-Homework assignment 1 updated is my portfolio page built with HTML,CSS, Javascript, and the additional libraries like jquery, and Bulma.  
+Homework assignment 1 updated is my portfolio page built with HTML and Bulma.
 
 ## Technology 
 
 * HTML
-* CSS
-* Javascript
-* Jquery
 * Bulma
 
 ## Images
@@ -26,7 +23,7 @@ Homework assignment 1 updated is my portfolio page built with HTML,CSS, Javascri
 
 
 ![Homework screenshot](/assets/images/Portfolio.png)
-Format: ![My Professional Page](https://mbelfrom.github.io/se-portfolio/)
+
 
 
 
