@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="">
-    <section class="hero is-link ">
+    <section class="hero is-link is-full">
         <div class="hero-body">
           <p class="title">
           Jr. Software Engineer
@@ -24,9 +24,9 @@
               <!-- navbar -->
               <nav class="breadcrumb is-centered is-medium" aria-label="breadcrumbs"> 
                 <ul>
-                  <li><a href="#">About Me</a></li>
-                  <li><a href="#">Work</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#aboutMe">About Me</a></li>
+                  <li><a href="#work">Work</a></li>
+                  <li><a href="#contact">Contact</a></li>
                   <li class="is-active"></li>
                 </ul>
               </nav>
@@ -36,21 +36,28 @@
       </head>
   <body>
    <!-- about me-->
+   <div class="columns is-4 is-offset-8">
    <section class="section">
-    <h1 class="title">About Me</h1>
+    <h1 class="title" id="aboutMe">About Me</h1>
     <h2 class="subtitle">
       <p>Currently, I’m a student pursing a completion of course from the University of Arizona’s coding boot-camp program.  My pre boot-camp experience with several languages are HTML, CSS, and Python primarily and some secondarily knowledge of SQL.  I have some minor experience with the Command Line Interface(CLI) within the Windows (Powershell) Linux and iOS terminals.  Throughout my professional journey, this page will be a continuous work in progress with updated applications, UI, and information.</p>      
     </h2>
   </section>
 <!-- work -->
 <section class="section">
-  <h1 class="title">Work</h1>
-  <h2 class="subtitle">
+  <p>
+    Learn more <a href="/products">about our products</a>.
+  </p>
+    <h1 class="title" id class="work">Work and Projects</h1>
+    <h2 class="subtitle">
+      <p>The course has a great structure that's easy to follow but challenging enough to push you further.  Throughout the course multiple assignments have been given to us individually and in a group setting. Provided are links to my professional work: <a href="https://mbelfrom.github.io/pass_gen/">A password generator</a> and <a href="https://mbelfrom.github.io/se-portfolio/"> se-portfolio.</a> </p>
+    </h2>
+  </div>
+</section> 
     
-  </h2>
-</section>       
+  
 <!-- contact -->    
-<footer class="footer">
+<footer class="footer" id class="contact">
   <div class="content has-text-centered">
     <p>
       <strong>Contact Information</strong>Email : <a href="mailto:mibelfrom@gmail.com">mibelfrom@gmail.com.</a> Github Profile :
@@ -62,8 +69,5 @@
   </body>
 </html>
 
-<!--Hi Malcolm. Great job deploying your Portfolio site! I enjoyed the images you chose and nice job adding mailto links to your email address. Looking at your css link in the head your html page it references an assets folder that I do not see in your repo. I would look into your file path here when trying to connect your stylesheet to your html page.
 
-Somethings to add for future development are a README.md file explaining your application with a screenshot(s) of your application and a link to your deployed site. Remember this is your portfolio site so be sure to add examples of your work, a profile picture or avatar so potential employers can get to know you.
 
-Keep up the good work!-->
